@@ -6,7 +6,8 @@ var config = {
     physics: {
         default: "arcade",
         arcade: {
-          gravity: { y: 100 } // Top down game, so no gravity
+          debug: true,
+          gravity: { y: 250 } // Top down game, so no gravity
         }
       }
 
